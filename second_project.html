@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: #f0f8ff;
+            color: #2c3e50;
+        }
+        header {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            background: #ffffff;
+            color: #2575fc;
+            padding: 12px 28px;
+            font-weight: bold;
+            border: none;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 50px 30px;
+            background: #ffffff;
+        }
+        .feature {
+            background: #e0f7fa;
+            border-radius: 10px;
+            padding: 25px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .feature:hover {
+            transform: translateY(-10px);
+        }
+        .feature img {
+            width: 400px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            height: 300px;
+        }
+        .feature h3 {
+            margin-bottom: 10px;
+            color: #00796b;
+        }
+        footer {
+            background: black;
+            color: #bdc3c7;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #1abc9c;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header>
+        <h1>Quantum Devs</h1>
+        <p>Connecting Ideas And Imagination to the Future with Innovative Technology</p>
+        <a href="#" class="cta-button">Let Begin</a>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <img src="logo11.jpg"  alt="Secure">
+            <h3>Secure Platform</h3>
+            <p>At Quantum Devs your data is protected with industry leading security measures and protocols.</p>
+        </div>
+        <div class="feature">
+            <img src="logo22.webp" alt="Fast">
+            <h3>Fast Performance</h3>
+            <p>Experience lightning fast response times and seamless connectivity anywhere.</p>
+        </div>
+        <div class="feature">
+            <img src="logo333.jpg" alt="Support">
+            <h3>24/7 Support</h3>
+            <p>Our support team is always available to help you with your journey to success.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us: <a href="quantum@devs.com">quantum@devs.com</a> | +2 349 066 220 612</p>
+        <p>&copy; 2025 Quantum Devs. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
